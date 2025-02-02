@@ -1,7 +1,7 @@
 # Learn more about configuring your app at https://shopify.dev/docs/apps/tools/cli/configuration
 
 client_id = "76eadaf12e990054d3162844bb357200"
-application_url = "https://bench-ratings-paths-dreams.trycloudflare.com"
+application_url = "https://combining-dryer-basketball-infants.trycloudflare.com"
 embedded = true
 name = "ShopiGPT"
 handle = "shopigpt-1"
@@ -23,9 +23,9 @@ scopes = "write_products"
 
 [auth]
 redirect_urls = [
-  "https://bench-ratings-paths-dreams.trycloudflare.com/auth/callback",
-  "https://bench-ratings-paths-dreams.trycloudflare.com/auth/shopify/callback",
-  "https://bench-ratings-paths-dreams.trycloudflare.com/api/auth/callback"
+  "https://combining-dryer-basketball-infants.trycloudflare.com/auth/callback",
+  "https://combining-dryer-basketball-infants.trycloudflare.com/auth/shopify/callback",
+  "https://combining-dryer-basketball-infants.trycloudflare.com/api/auth/callback"
 ]
 
 [pos]

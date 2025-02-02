@@ -1,0 +1,29 @@
+# Learn more about configuring your app at https://shopify.dev/docs/apps/tools/cli/configuration
+
+client_id = "4c3f75d5286bddeee8c1971864edc4c3"
+application_url = "https://barnes-grew-refined-units.trycloudflare.com"
+embedded = true
+name = "shopi-gpt"
+handle = "shopi-gpt"
+
+[build]
+include_config_on_deploy = true
+dev_store_url = "test-store-ilker.myshopify.com"
+automatically_update_urls_on_dev = true
+
+[webhooks]
+api_version = "2025-01"
+
+[access_scopes]
+# Learn more at https://shopify.dev/docs/apps/tools/cli/configuration#access_scopes
+scopes = "write_products"
+
+[auth]
+redirect_urls = [
+  "https://barnes-grew-refined-units.trycloudflare.com/auth/callback",
+  "https://barnes-grew-refined-units.trycloudflare.com/auth/shopify/callback",
+  "https://barnes-grew-refined-units.trycloudflare.com/api/auth/callback"
+]
+
+[pos]
+embedded = false
